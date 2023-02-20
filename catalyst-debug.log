@@ -1,0 +1,2124 @@
+[debug] [2023-02-19T12:28:24.940Z] : 
+[debug] [2023-02-19T12:28:24.941Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T12:28:24.942Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-19T12:28:24.942Z] : CLI Version:  1.13.3
+[debug] [2023-02-19T12:28:24.943Z] : Platform:     win32
+[debug] [2023-02-19T12:28:24.943Z] : Node Version: v18.12.1
+[debug] [2023-02-19T12:28:24.944Z] : Time:         Sun Feb 19 2023 20:28:24 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-19T12:28:24.944Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T12:28:24.944Z] : 
+[debug] [2023-02-19T12:28:25.589Z] : > authorizing via signed-in user option
+[debug] [2023-02-19T12:28:25.589Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-19T12:28:25.601Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326 
+
+[debug] [2023-02-19T12:28:26.478Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 12:28:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=73b59ac3-70ec-4413-8e95-d3b0464b28e3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=73b59ac3-70ec-4413-8e95-d3b0464b28e3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T12:28:26.492Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/environment 
+
+[debug] [2023-02-19T12:28:27.056Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 12:28:28 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=474c1f02-dcaf-4f9b-b58f-b400074dac8b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=474c1f02-dcaf-4f9b-b58f-b400074dac8b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T12:28:27.318Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-19T12:28:27.914Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 12:28:28 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=f2b97ca0-0325-4506-91a9-e7dd03000eae;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f2b97ca0-0325-4506-91a9-e7dd03000eae;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T12:28:27.919Z] : unknown eol undefined hence skipping check
+[info] [2023-02-19T12:28:28.017Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T12:28:28.018Z] : 
+[info] [2023-02-19T12:28:30.497Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-19T12:28:30.499Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-19T12:28:37.172Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:28:37.172Z] : [react-plugin]: 
+[info] [2023-02-19T12:28:37.173Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:28:37.173Z] : [react-plugin]: 
+[info] [2023-02-19T12:28:37.173Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:28:37.174Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:28:37.174Z] : [react-plugin]: 
+[info] [2023-02-19T12:28:37.174Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:28:37.174Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:28:37.175Z] : [react-plugin]: 
+[info] [2023-02-19T12:32:28.531Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:32:28.979Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:32:28.980Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:32:28.980Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:32:28.981Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:34:35.519Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:34:35.973Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:34:35.974Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:34:35.974Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:34:35.975Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:35:14.983Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:35:15.349Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:35:15.349Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:35:15.349Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:35:15.349Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:35:44.582Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:35:44.700Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:35:44.701Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:35:44.701Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:35:44.701Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:36:28.743Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:36:28.989Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:36:28.989Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:36:28.990Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:36:28.990Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:37:18.744Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:37:19.022Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:37:19.023Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:37:19.023Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:37:19.023Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:38:03.380Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:38:03.634Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:38:03.634Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:38:03.634Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:38:03.634Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:38:34.863Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:38:35.148Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:38:35.148Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:38:35.149Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:38:35.149Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:38:38.026Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:38:38.127Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:38:38.127Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:38:38.127Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:38:38.128Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:39:14.757Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:39:15.100Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:39:15.100Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:39:15.101Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:39:15.101Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:39:42.517Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:39:42.704Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:39:42.705Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:39:42.705Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:39:42.705Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:39:44.519Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:39:44.635Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:39:44.635Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:39:44.635Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:39:44.635Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:39:55.980Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:39:56.201Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:39:56.202Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:39:56.202Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:39:56.202Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:39:57.380Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:39:57.484Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:39:57.485Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:39:57.485Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:39:57.485Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:40:08.962Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:40:09.121Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:40:09.122Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:40:09.122Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:40:09.122Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:40:36.853Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:40:37.021Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:40:37.022Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:40:37.022Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:40:37.022Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:41:36.749Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:41:36.999Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:41:36.999Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:41:36.999Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:41:36.999Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-02-19T12:41:37.022Z] : > refreshing access token <
+[debug] [2023-02-19T12:41:37.024Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-19T12:41:37.623Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 12:41:38 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/","iamcsr=fee1b4c7-29ee-48a4-b341-02014419de43;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fee1b4c7-29ee-48a4-b341-02014419de43;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-19T12:41:50.788Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:41:50.962Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:41:50.962Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:41:50.962Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:41:50.962Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:42:07.596Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:42:07.786Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:42:07.786Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:42:07.787Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:42:07.787Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:42:25.689Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:42:25.868Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:42:25.868Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:42:25.868Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:42:25.869Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:42:41.255Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:42:41.432Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:42:41.433Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:42:41.433Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:42:41.433Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:42:49.367Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:42:49.578Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:42:49.578Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:42:49.578Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:42:49.578Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:47:57.432Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:47:57.835Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:47:57.836Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:47:57.836Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:47:57.836Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:48:01.896Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:48:02.101Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:48:02.101Z] : [react-plugin]: [eslint] 
+src\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:48:02.102Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:48:02.102Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:48:27.789Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:48:27.999Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:48:28.000Z] : [react-plugin]: 
+[info] [2023-02-19T12:48:28.000Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:48:28.000Z] : [react-plugin]: 
+[info] [2023-02-19T12:48:28.000Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:48:28.001Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:48:28.001Z] : [react-plugin]: 
+[info] [2023-02-19T12:48:28.001Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:48:28.001Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:48:28.001Z] : [react-plugin]: 
+[info] [2023-02-19T12:50:37.023Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:50:37.258Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:50:37.258Z] : [react-plugin]: 
+[info] [2023-02-19T12:50:37.259Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:50:37.259Z] : [react-plugin]: 
+[info] [2023-02-19T12:50:37.259Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:50:37.260Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:50:37.260Z] : [react-plugin]: 
+[info] [2023-02-19T12:50:37.260Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:50:37.260Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:50:37.260Z] : [react-plugin]: 
+[info] [2023-02-19T12:52:38.560Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:52:38.826Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:52:38.827Z] : [react-plugin]: 
+[info] [2023-02-19T12:52:38.827Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:52:38.827Z] : [react-plugin]: 
+[info] [2023-02-19T12:52:38.827Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:52:38.828Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:52:38.828Z] : [react-plugin]: 
+[info] [2023-02-19T12:52:38.828Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:52:38.828Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:52:38.829Z] : [react-plugin]: 
+[info] [2023-02-19T12:53:00.019Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:53:00.187Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:53:00.187Z] : [react-plugin]: 
+[info] [2023-02-19T12:53:00.188Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:53:00.188Z] : [react-plugin]: 
+[info] [2023-02-19T12:53:00.188Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:53:00.188Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:53:00.189Z] : [react-plugin]: 
+[info] [2023-02-19T12:53:00.189Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:53:00.189Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:53:00.189Z] : [react-plugin]: 
+[info] [2023-02-19T12:54:32.822Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:54:33.093Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:54:33.093Z] : [react-plugin]: 
+[info] [2023-02-19T12:54:33.094Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:54:33.094Z] : [react-plugin]: 
+[info] [2023-02-19T12:54:33.095Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:54:33.095Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:54:33.095Z] : [react-plugin]: 
+[info] [2023-02-19T12:54:33.095Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:54:33.096Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:54:33.096Z] : [react-plugin]: 
+[info] [2023-02-19T12:55:04.659Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:55:04.856Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:55:04.856Z] : [react-plugin]: 
+[info] [2023-02-19T12:55:04.856Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:55:04.856Z] : [react-plugin]: 
+[info] [2023-02-19T12:55:04.856Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:55:04.857Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:55:04.857Z] : [react-plugin]: 
+[info] [2023-02-19T12:55:04.857Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:55:04.857Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:55:04.857Z] : [react-plugin]: 
+[info] [2023-02-19T12:56:05.189Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:56:05.447Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T12:56:05.447Z] : [react-plugin]: 
+[info] [2023-02-19T12:56:05.447Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T12:56:05.447Z] : [react-plugin]: 
+[info] [2023-02-19T12:56:05.447Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T12:56:05.448Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T12:56:05.448Z] : [react-plugin]: 
+[info] [2023-02-19T12:56:05.448Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T12:56:05.448Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T12:56:05.448Z] : [react-plugin]: 
+[info] [2023-02-19T12:56:56.326Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:56:56.557Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:56:56.557Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 4:3:  'FaFacebook' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:56:56.557Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:56:56.557Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:57:06.903Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:57:07.085Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:57:07.086Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 4:3:  'FaFacebook' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:57:07.086Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:57:07.086Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:57:10.461Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:57:10.673Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T12:57:10.673Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 41:12:  'FaYoutube' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-19T12:57:12.333Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:57:12.545Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:57:12.545Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 4:3:  'FaFacebook' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:57:12.546Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:57:12.546Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:57:32.390Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:57:32.564Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:57:32.565Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 3:3:  'FaBehance' is defined but never used   no-unused-vars
+  Line 4:3:  'FaFacebook' is defined but never used  no-unused-vars
+  Line 6:3:  'FaTwitter' is defined but never used   no-unused-vars
+[info] [2023-02-19T12:57:32.565Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:57:32.565Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:57:57.163Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:57:57.353Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T12:57:57.354Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 51:12:  'FaLinFaFacebookkedin' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-19T12:58:06.879Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:58:07.113Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:58:07.113Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 3:3:  'FaBehance' is defined but never used  no-unused-vars
+  Line 6:3:  'FaTwitter' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:58:07.113Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:58:07.113Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:58:32.853Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:58:33.050Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:58:33.050Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 3:3:  'FaBehance' is defined but never used  no-unused-vars
+  Line 6:3:  'FaTwitter' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:58:33.050Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:58:33.050Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T12:58:45.885Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T12:58:45.964Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T12:58:45.964Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 3:3:  'FaBehance' is defined but never used  no-unused-vars
+  Line 6:3:  'FaTwitter' is defined but never used  no-unused-vars
+[info] [2023-02-19T12:58:45.964Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T12:58:45.965Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T13:00:01.824Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:00:02.143Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:00:02.143Z] : [react-plugin]: 
+[info] [2023-02-19T13:00:02.144Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:00:02.144Z] : [react-plugin]: 
+[info] [2023-02-19T13:00:02.144Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:00:02.145Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:00:02.145Z] : [react-plugin]: 
+[info] [2023-02-19T13:00:02.145Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:00:02.145Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:00:02.146Z] : [react-plugin]: 
+[info] [2023-02-19T13:00:48.893Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T13:00:48.893Z] : [react-plugin]: Module not found: Error: Can't resolve './Navbar' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\TheCRMCarpentersWebsite\react-app\src'
+[info] [2023-02-19T13:01:20.502Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:01:20.829Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T13:01:20.830Z] : [react-plugin]: Module not found: Error: Can't resolve './theCRMlogo.png' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\TheCRMCarpentersWebsite\react-app\src\components'
+[info] [2023-02-19T13:01:28.379Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:01:28.603Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:01:28.603Z] : [react-plugin]: 
+[info] [2023-02-19T13:01:28.603Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:01:28.604Z] : [react-plugin]: 
+[info] [2023-02-19T13:01:28.604Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:01:28.604Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:01:28.604Z] : [react-plugin]: 
+[info] [2023-02-19T13:01:28.604Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:01:28.605Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:01:28.605Z] : [react-plugin]: 
+[info] [2023-02-19T13:03:28.686Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:03:28.993Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:03:28.993Z] : [react-plugin]: 
+[info] [2023-02-19T13:03:28.993Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:03:28.993Z] : [react-plugin]: 
+[info] [2023-02-19T13:03:28.994Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:03:28.994Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:03:28.994Z] : [react-plugin]: 
+[info] [2023-02-19T13:03:28.995Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:03:28.995Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:03:28.995Z] : [react-plugin]: 
+[info] [2023-02-19T13:04:36.721Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:04:36.965Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T13:04:36.966Z] : [react-plugin]: Module not found: Error: Can't resolve './images/main.jpeg' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\TheCRMCarpentersWebsite\react-app\src'
+[info] [2023-02-19T13:05:05.538Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:05:05.706Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]: 
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]: 
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]: 
+[info] [2023-02-19T13:05:05.707Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:05:05.708Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:05:05.708Z] : [react-plugin]: 
+[info] [2023-02-19T13:06:40.833Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:06:41.084Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:06:41.084Z] : [react-plugin]: 
+[info] [2023-02-19T13:06:41.084Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:06:41.085Z] : [react-plugin]: 
+[info] [2023-02-19T13:06:41.085Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:06:41.085Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:06:41.085Z] : [react-plugin]: 
+[info] [2023-02-19T13:06:41.086Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:06:41.086Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:06:41.086Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:07.733Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:08:07.974Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:08:07.974Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:07.975Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:08:07.975Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:07.975Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:08:07.975Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:08:07.976Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:07.976Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:08:07.976Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:08:07.976Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:38.511Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:08:38.673Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:08:38.673Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:38.673Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:08:38.673Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:38.674Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:08:38.674Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:08:38.674Z] : [react-plugin]: 
+[info] [2023-02-19T13:08:38.674Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:08:38.674Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:08:38.675Z] : [react-plugin]: 
+[info] [2023-02-19T13:09:18.572Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:09:18.769Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T13:09:18.769Z] : [react-plugin]: 
+[info] [2023-02-19T13:09:18.769Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T13:09:18.769Z] : [react-plugin]: 
+[info] [2023-02-19T13:09:18.770Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T13:09:18.770Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T13:09:18.770Z] : [react-plugin]: 
+[info] [2023-02-19T13:09:18.770Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T13:09:18.770Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T13:09:18.771Z] : [react-plugin]: 
+[info] [2023-02-19T13:13:34.242Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T13:13:34.520Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T13:13:34.520Z] : [react-plugin]: [eslint] 
+src\components\Navbar.js
+  Line 4:8:  'logo' is defined but never used  no-unused-vars
+[info] [2023-02-19T13:13:34.521Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T13:13:34.521Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T13:16:22.545Z] : Shutting down server
+[info] [2023-02-19T13:16:22.561Z] : 
+[info] [2023-02-19T13:16:22.564Z] : √ Shutdown complete
+[debug] [2023-02-19T13:16:22.566Z] : NO ERRORS REGISTERED
+[debug] [2023-02-19T13:16:22.567Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-19T13:16:22.568Z] : TOTAL DURATION OF COMMAND EXEC : 2876990
+[debug] [2023-02-19T13:16:22.609Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-19T13:16:24.584Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 13:16:25 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=f2b3f317-a96c-4047-a0e2-fc6ac5a1f030;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f2b3f317-a96c-4047-a0e2-fc6ac5a1f030;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=E61D631910A90F957794C0F41C14DB24; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-19T13:16:24.588Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-19T13:16:24.593Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-19T15:48:11.461Z] : 
+[debug] [2023-02-19T15:48:11.462Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T15:48:11.463Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-19T15:48:11.464Z] : CLI Version:  1.13.3
+[debug] [2023-02-19T15:48:11.464Z] : Platform:     win32
+[debug] [2023-02-19T15:48:11.465Z] : Node Version: v18.12.1
+[debug] [2023-02-19T15:48:11.466Z] : Time:         Sun Feb 19 2023 23:48:11 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-19T15:48:11.466Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T15:48:11.466Z] : 
+[debug] [2023-02-19T15:48:12.199Z] : > authorizing via signed-in user option
+[debug] [2023-02-19T15:48:12.199Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-19T15:48:12.211Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326 
+
+[debug] [2023-02-19T15:48:12.859Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:48:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=ebee3dbc-609e-405b-9c29-71e355064b85;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ebee3dbc-609e-405b-9c29-71e355064b85;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T15:48:12.873Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/environment 
+
+[debug] [2023-02-19T15:48:13.418Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:48:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=bb1e56f6-73e2-4ad6-9f24-de36a87f2eae;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bb1e56f6-73e2-4ad6-9f24-de36a87f2eae;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T15:48:13.617Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-19T15:48:14.172Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:48:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=bd9dd8ba-df09-49fe-bbd8-5a894c9bfb3a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bd9dd8ba-df09-49fe-bbd8-5a894c9bfb3a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T15:48:14.175Z] : unknown eol undefined hence skipping check
+[info] [2023-02-19T15:48:14.220Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T15:48:14.221Z] : 
+[info] [2023-02-19T15:48:17.028Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-19T15:48:17.031Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-19T15:48:22.602Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T15:48:22.602Z] : [react-plugin]: [eslint] 
+src\components\About.js
+  Line 24:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\components\Footer.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\NavBar.js
+  Line 1:8:   'logo' is defined but never used       no-unused-vars
+  Line 3:10:  'FaBars' is defined but never used     no-unused-vars
+  Line 3:18:  'FaTwitter' is defined but never used  no-unused-vars
+  Line 4:10:  'SiZoho' is defined but never used     no-unused-vars
+[info] [2023-02-19T15:48:22.604Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T15:48:22.604Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T15:48:44.627Z] : Shutting down server
+[info] [2023-02-19T15:48:44.633Z] : 
+[info] [2023-02-19T15:48:44.634Z] : √ Shutdown complete
+[debug] [2023-02-19T15:48:44.634Z] : NO ERRORS REGISTERED
+[debug] [2023-02-19T15:48:44.635Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-19T15:48:44.635Z] : TOTAL DURATION OF COMMAND EXEC : 32452
+[debug] [2023-02-19T15:48:44.653Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-19T15:48:46.632Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:48:47 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=3a174f41-a54d-4ae4-b87e-fd6d072e2292;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3a174f41-a54d-4ae4-b87e-fd6d072e2292;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=F9BD39F5EA097CA08914A93312E0234C; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-19T15:48:46.634Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-19T15:48:46.637Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-19T15:49:41.464Z] : 
+[debug] [2023-02-19T15:49:41.465Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T15:49:41.466Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-19T15:49:41.466Z] : CLI Version:  1.13.3
+[debug] [2023-02-19T15:49:41.467Z] : Platform:     win32
+[debug] [2023-02-19T15:49:41.467Z] : Node Version: v18.12.1
+[debug] [2023-02-19T15:49:41.468Z] : Time:         Sun Feb 19 2023 23:49:41 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-19T15:49:41.468Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T15:49:41.468Z] : 
+[debug] [2023-02-19T15:49:42.083Z] : > authorizing via signed-in user option
+[debug] [2023-02-19T15:49:42.083Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-19T15:49:42.094Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326 
+
+[debug] [2023-02-19T15:49:42.721Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:49:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=7dede69d-c2f9-4ca7-aa91-66df068b0256;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7dede69d-c2f9-4ca7-aa91-66df068b0256;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T15:49:42.729Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/environment 
+
+[debug] [2023-02-19T15:49:43.279Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:49:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=03a4e375-2d46-4b18-84b3-b021f16e5d6b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=03a4e375-2d46-4b18-84b3-b021f16e5d6b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T15:49:43.470Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-19T15:49:44.021Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 15:49:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=f2870b11-040f-46cb-9d35-a1b03b0551e4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f2870b11-040f-46cb-9d35-a1b03b0551e4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T15:49:44.027Z] : unknown eol undefined hence skipping check
+[info] [2023-02-19T15:49:44.098Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T15:49:44.099Z] : 
+[info] [2023-02-19T15:49:46.453Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-19T15:49:46.455Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-19T15:49:48.184Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T15:49:48.185Z] : [react-plugin]: 
+[info] [2023-02-19T15:49:48.185Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T15:49:48.185Z] : [react-plugin]: 
+[info] [2023-02-19T15:49:48.185Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T15:49:48.185Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T15:49:48.186Z] : [react-plugin]: 
+[info] [2023-02-19T15:49:48.186Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T15:49:48.186Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T15:49:48.186Z] : [react-plugin]: 
+[info] [2023-02-19T15:56:06.108Z] : 
+change of package-lock.json in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T15:56:06.134Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T15:56:06.134Z] : 
+[info] [2023-02-19T15:56:06.235Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T15:56:07.236Z] : 
+change of package.json in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T15:56:07.252Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T15:56:07.253Z] : 
+[info] [2023-02-19T15:56:07.362Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T15:56:44.019Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T15:56:44.364Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-19T15:56:44.365Z] : [react-plugin]: 
+[info] [2023-02-19T15:56:44.365Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-19T15:56:44.366Z] : [react-plugin]: 
+[info] [2023-02-19T15:56:44.366Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-19T15:56:44.367Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-19T15:56:44.367Z] : [react-plugin]: 
+[info] [2023-02-19T15:56:44.367Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-19T15:56:44.367Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-19T15:56:44.368Z] : [react-plugin]: 
+[info] [2023-02-19T15:59:50.527Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T15:59:50.556Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T15:59:50.556Z] : 
+[info] [2023-02-19T15:59:50.661Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:00:07.706Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:00:07.726Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:00:07.727Z] : 
+[info] [2023-02-19T16:00:07.838Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:01:01.357Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:01:03.373Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:01:03.373Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:8:  'axios' is defined but never used  no-unused-vars
+[info] [2023-02-19T16:01:03.373Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:01:03.373Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:03:10.387Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:03:10.785Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:03:10.786Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:8:    'axios' is defined but never used                   no-unused-vars
+  Line 9:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 9:35:   'useEffect' is defined but never used               no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                  no-unused-vars
+  Line 11:10:  'page' is assigned a value but never used           no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used     no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used     no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:03:10.786Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:03:10.787Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:03:42.873Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:03:43.124Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:03:43.125Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:8:    'axios' is defined but never used                   no-unused-vars
+  Line 9:10:   'forwardRef' is defined but never used              no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used             no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                  no-unused-vars
+  Line 11:10:  'page' is assigned a value but never used           no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used        no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used        no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used     no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used     no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:03:43.125Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:03:43.126Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:06:19.108Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:06:19.470Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:06:19.470Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 14:10:  'homeElements' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:06:19.470Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:06:19.471Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:07:12.729Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:07:13.084Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:07:13.084Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used        no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used       no-unused-vars
+  Line 9:46:   'useRef' is defined but never used            no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used  no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:07:13.084Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:07:13.086Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:07:46.002Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:07:46.236Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:07:46.236Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used        no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used       no-unused-vars
+  Line 9:46:   'useRef' is defined but never used            no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used  no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:07:46.236Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:07:46.237Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:08:20.063Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:08:20.379Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:08:20.380Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used        no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used       no-unused-vars
+  Line 9:46:   'useRef' is defined but never used            no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used  no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:08:20.380Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:08:20.381Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:10:19.279Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:10:19.667Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:10:19.668Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used        no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used       no-unused-vars
+  Line 9:46:   'useRef' is defined but never used            no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used  no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:10:19.668Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:10:19.669Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:11:12.969Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:11:13.214Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:11:13.214Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 23:21:  'homeElements' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:11:13.215Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:11:13.215Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:11:31.787Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:11:32.127Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:11:32.127Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 23:21:  'homeElements' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:11:32.127Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:11:32.128Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:11:57.075Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:11:57.324Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:11:57.324Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 23:21:  'homeElements' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:11:57.325Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:11:57.325Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:13:40.711Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:13:40.939Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T16:13:40.940Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\TheCRMCarpentersWebsite\react-app\src\components\Hero.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (9:8)
+   7 |           return (
+   8 | <h1>backroads app</h1>
+>  9 |         <p>
+     |         ^
+  10 |           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+  11 |           explicabo debitis est autem dicta.
+  12 |         </p>
+[info] [2023-02-19T16:14:14.659Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:14:14.752Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T16:14:14.753Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\TheCRMCarpentersWebsite\react-app\src\components\Hero.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (9:8)
+   7 |           return (
+   8 | <h1>backroads app</h1>
+>  9 |         <p>
+     |         ^
+  10 |           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+  11 |           explicabo debitis est autem dicta.
+  12 |         </p>
+[info] [2023-02-19T16:14:37.149Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:14:37.384Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:14:37.385Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 23:21:  'homeElements' is assigned a value but never used  no-unused-vars
+
+src\components\Hero.js
+  Line 6:40:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+  Line 7:21:  'id' is assigned a value but never used                           no-unused-vars
+  Line 7:25:  'welcome_text' is assigned a value but never used                 no-unused-vars
+  Line 7:39:  'welcome_title' is assigned a value but never used                no-unused-vars
+[info] [2023-02-19T16:14:37.385Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:14:37.386Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-02-19T16:14:48.132Z] : > refreshing access token <
+[debug] [2023-02-19T16:14:48.136Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-19T16:14:48.748Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 16:14:49 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/","iamcsr=ea8998b0-5f55-4da5-ad04-1472a69c4d21;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ea8998b0-5f55-4da5-ad04-1472a69c4d21;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-19T16:15:19.088Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:15:19.334Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:15:19.334Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 23:21:  'homeElements' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:15:19.335Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:15:19.335Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:15:30.392Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:15:30.577Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:15:30.577Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used             no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used            no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                 no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used       no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used       no-unused-vars
+  Line 23:21:  'homeElements' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:15:30.578Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:15:30.578Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:16:20.310Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:16:20.596Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:16:20.597Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 22:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:16:20.597Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:16:20.598Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:16:53.174Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:16:53.464Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:16:53.464Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:16:53.465Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:16:53.465Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:17:06.550Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:17:06.827Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:17:06.827Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:17:06.828Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:17:06.828Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:17:36.920Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:17:37.213Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:17:37.214Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 14:24:  'setHomeElements' is assigned a value but never used                                                     no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:17:37.215Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:17:37.215Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:17:52.146Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:17:52.358Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:17:52.359Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 14:24:  'setHomeElements' is assigned a value but never used                                                     no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:17:52.359Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:17:52.359Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:18:01.969Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:18:02.215Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:18:02.216Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 14:24:  'setHomeElements' is assigned a value but never used                                                     no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:18:02.217Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:18:02.217Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:18:29.106Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:18:29.329Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T16:18:29.330Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 24:36:  'data' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-19T16:18:35.615Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:18:35.812Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T16:18:35.812Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 24:36:  'data' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-19T16:18:40.864Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:18:41.059Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:18:41.060Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 14:24:  'setHomeElements' is assigned a value but never used                                                     no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:18:41.060Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:18:41.060Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:19:09.205Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:19:09.420Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:19:09.421Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:19:09.421Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:19:09.422Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:19:31.862Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:19:32.103Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:19:32.103Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 14:24:  'setHomeElements' is assigned a value but never used                                                     no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 25:9:   'homeElements' is constant                                                                               no-const-assign
+  Line 33:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:19:32.104Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:19:32.104Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:19:46.954Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:19:47.173Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:19:47.174Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                                                                                                                                                                                                            no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                                                                                                                                                                                                           no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                                                                                                                                                                                                                no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                                                                                                                                                                                                                      no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                                                                                                                                                                                                                      no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                                                                                                                                                                                                                   no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                                                                                                                                                                                                                   no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+  Line 14:24:  'setHomeElements' is assigned a value but never used                                                                                                                                                                                                                                              no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                                                                                                                                                                                                                      no-unused-vars
+  Line 25:9:   'setHomeElements' is constant                                                                                                                                                                                                                                                                     no-const-assign
+  Line 25:27:  Assignments to the 'setHomeElements' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:19:47.174Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:19:47.175Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:20:14.578Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:20:14.780Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:20:14.781Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:20:14.781Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:20:14.782Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:20:44.929Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:20:45.173Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:20:45.173Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\Hero.js
+  Line 6:40:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+  Line 7:21:  'id' is assigned a value but never used                           no-unused-vars
+  Line 7:25:  'welcome_text' is assigned a value but never used                 no-unused-vars
+  Line 7:39:  'welcome_title' is assigned a value but never used                no-unused-vars
+[info] [2023-02-19T16:20:45.174Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:20:45.174Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:21:13.911Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:21:14.141Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:21:14.142Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\Hero.js
+  Line 7:21:  'id' is assigned a value but never used             no-unused-vars
+  Line 7:39:  'welcome_title' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T16:21:14.142Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:21:14.143Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:21:39.852Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:21:40.069Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-19T16:21:40.069Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\TheCRMCarpentersWebsite\react-app\src\components\Hero.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (9:10)
+   7 |             const { id, welcome_text, welcome_title } = homeItem;
+   8 |             return  <h1>backroads app</h1>
+>  9 |           <p>
+     |           ^
+  10 |             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+  11 |             explicabo debitis est autem dicta.
+  12 |           </p>
+[info] [2023-02-19T16:22:36.772Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:22:37.009Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:22:37.009Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\Hero.js
+  Line 7:21:   'id' is assigned a value but never used                                           no-unused-vars
+  Line 7:25:   'welcome_text' is assigned a value but never used                                 no-unused-vars
+  Line 7:39:   'welcome_title' is assigned a value but never used                                no-unused-vars
+  Line 10:17:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+[info] [2023-02-19T16:22:37.010Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:22:37.010Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:23:05.234Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:23:05.469Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:23:05.470Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:23:05.470Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:23:05.470Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:31:45.141Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:31:46.049Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:31:46.049Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:31:46.050Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:31:46.050Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:31:49.010Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:31:49.134Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:31:49.136Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:31:49.136Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:31:49.136Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:32:33.310Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:32:33.566Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:32:33.567Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:32:33.567Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:32:33.567Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:32:40.289Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:32:40.403Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:32:40.403Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[info] [2023-02-19T16:32:40.403Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:32:40.404Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:38:41.998Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:38:42.315Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:38:42.316Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 30:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:38:42.316Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:38:42.316Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:42:05.287Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:42:05.567Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:42:05.568Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:42:05.568Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:42:05.568Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:50:33.671Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:50:33.700Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:50:33.701Z] : 
+[info] [2023-02-19T16:50:33.813Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:52:24.553Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:52:24.575Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:52:24.575Z] : 
+[info] [2023-02-19T16:52:24.690Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:53:13.026Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:53:13.374Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:53:13.374Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 35:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 43:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 43:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 55:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:53:13.375Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:53:13.375Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:53:51.067Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:53:51.084Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:53:51.084Z] : 
+[info] [2023-02-19T16:53:51.195Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:54:12.910Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:54:13.124Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:54:13.125Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 15:25:  'setAboutElements' is assigned a value but never used                                                    no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 35:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:54:13.125Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:54:13.125Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:55:05.014Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:55:05.134Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:55:05.134Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 15:25:  'setAboutElements' is assigned a value but never used                                                    no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 35:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:55:05.134Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:55:05.135Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:55:28.410Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:55:28.436Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:55:28.436Z] : 
+[info] [2023-02-19T16:55:28.542Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:55:47.444Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:55:47.476Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:55:47.476Z] : 
+[info] [2023-02-19T16:55:47.589Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:56:03.838Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:56:04.026Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:56:04.027Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 34:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:56:04.027Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:56:04.027Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:56:18.326Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T16:56:18.527Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T16:56:18.528Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 31:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T16:56:18.528Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T16:56:18.529Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T16:58:44.183Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:58:44.202Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:58:44.202Z] : 
+[info] [2023-02-19T16:58:44.313Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T16:59:43.467Z] : 
+change of index.js in the_crm_carpenters_webiste_function detected. Preparing your function, please wait...
+[info] [2023-02-19T16:59:43.491Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T16:59:43.491Z] : 
+[info] [2023-02-19T16:59:43.602Z] : i server[the_crm_carpenters_webiste_function]: ready!
+[info] [2023-02-19T17:00:02.728Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:00:02.998Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:00:02.999Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 31:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 40:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 40:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 49:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:00:02.999Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:00:02.999Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:00:15.031Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:00:15.222Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:00:15.223Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 31:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 40:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 40:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 49:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:00:15.223Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:00:15.224Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:00:16.647Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:00:16.829Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:00:16.830Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 22:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 22:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 31:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 40:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 40:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 49:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:00:16.830Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:00:16.830Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:01:08.043Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:01:08.275Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:01:08.275Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 15:10:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 50:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:01:08.276Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:01:08.276Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:01:26.685Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:01:26.905Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:01:26.906Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 15:10:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:01:26.906Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:01:26.907Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:01:28.302Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:01:28.413Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:01:28.413Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 15:10:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:01:28.413Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:01:28.414Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:02:28.663Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:02:28.896Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:02:28.897Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:02:28.897Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:02:28.898Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:04:35.608Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:04:35.873Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:04:35.874Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 15:25:  'title' is assigned a value but never used                                                                                                                                                                                                                                                                                                                         no-unused-vars
+  Line 15:32:  'content' is assigned a value but never used                                                                                                                                                                                                                                                                                                                       no-unused-vars
+  Line 33:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:04:35.874Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:04:35.875Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:04:58.395Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:04:58.637Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:04:58.637Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 1:8:    'aboutImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 24:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:04:58.638Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:04:58.638Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:06:10.918Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:06:11.176Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:06:11.177Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 24:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:06:11.177Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:06:11.177Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:08:35.189Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:08:35.436Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:08:35.437Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used                                                                                                                                                                                                                                                                                                                               no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 29:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2023-02-19T17:08:35.437Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:08:35.437Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:08:40.052Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:08:40.240Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:08:40.241Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used     no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T17:08:40.241Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:08:40.241Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:13:12.558Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:13:12.815Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:13:12.816Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 5:8:    'Services' is defined but never used                                                                     no-unused-vars
+  Line 6:8:    'Tours' is defined but never used                                                                        no-unused-vars
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used     no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used  no-unused-vars
+[info] [2023-02-19T17:13:12.816Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:13:12.816Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:13:47.992Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:13:48.234Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:13:48.236Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 5:8:    'Services' is defined but never used                                                                     no-unused-vars
+  Line 6:8:    'Tours' is defined but never used                                                                        no-unused-vars
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used     no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used  no-unused-vars
+
+src\components\Footer.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-02-19T17:13:48.236Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:13:48.236Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:14:47.004Z] : [react-plugin]: Compiling...
+[info] [2023-02-19T17:14:47.234Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:14:47.235Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 5:8:    'Services' is defined but never used                                                                     no-unused-vars
+  Line 6:8:    'Tours' is defined but never used                                                                        no-unused-vars
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used     no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used  no-unused-vars
+
+src\components\Footer.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-02-19T17:14:47.235Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:14:47.236Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-02-19T17:14:48.780Z] : > refreshing access token <
+[debug] [2023-02-19T17:14:48.783Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-19T17:14:49.393Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:14:50 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=dcb92d0f99dd7421201f8dc746d54606; Path=/","iamcsr=f5d9add4-7bc8-481b-9ba2-9decd41be45c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f5d9add4-7bc8-481b-9ba2-9decd41be45c;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-19T17:16:14.798Z] : Shutting down server
+[info] [2023-02-19T17:16:14.802Z] : 
+[info] [2023-02-19T17:16:14.803Z] : √ Shutdown complete
+[debug] [2023-02-19T17:16:14.803Z] : NO ERRORS REGISTERED
+[debug] [2023-02-19T17:16:14.803Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-19T17:16:14.804Z] : TOTAL DURATION OF COMMAND EXEC : 5192734
+[debug] [2023-02-19T17:16:14.820Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-19T17:16:16.799Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:17 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=1dc87192-cb5f-4c4c-8c54-4d456dc744b7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1dc87192-cb5f-4c4c-8c54-4d456dc744b7;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=6016B95460A0A1A3BB5087288DEE6935; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-19T17:16:16.800Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-19T17:16:16.801Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-19T17:16:21.116Z] : 
+[debug] [2023-02-19T17:16:21.117Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T17:16:21.118Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-19T17:16:21.118Z] : CLI Version:  1.13.3
+[debug] [2023-02-19T17:16:21.118Z] : Platform:     win32
+[debug] [2023-02-19T17:16:21.119Z] : Node Version: v18.12.1
+[debug] [2023-02-19T17:16:21.120Z] : Time:         Mon Feb 20 2023 01:16:21 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-19T17:16:21.120Z] : ----------------------------------------------------------------------
+[debug] [2023-02-19T17:16:21.120Z] : 
+[debug] [2023-02-19T17:16:21.845Z] : > authorizing via signed-in user option
+[debug] [2023-02-19T17:16:21.845Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-19T17:16:21.856Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326 
+
+[debug] [2023-02-19T17:16:22.464Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=ad284d0f-cf84-4ab1-abe4-e6df917abd8c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ad284d0f-cf84-4ab1-abe4-e6df917abd8c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T17:16:22.473Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/environment 
+
+[debug] [2023-02-19T17:16:23.020Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=688db0d2-cf34-4a4b-aac2-0fc89d7c3cbb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=688db0d2-cf34-4a4b-aac2-0fc89d7c3cbb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T17:16:23.055Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-19T17:16:23.615Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=7188b769-d580-4719-8a18-0db68a1b0db4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7188b769-d580-4719-8a18-0db68a1b0db4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-19T17:16:23.624Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-19T17:16:24.237Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/server/upsert 
+
+[debug] [2023-02-19T17:16:29.282Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=10232925-ccb6-47f9-ae42-82a218b2ca3a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=10232925-ccb6-47f9-ae42-82a218b2ca3a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-19T17:16:29.441Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-19T17:16:29.441Z] : i Building Application...
+[info] [2023-02-19T17:16:31.471Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-19T17:16:42.586Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-19T17:16:42.588Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 5:8:    'Services' is defined but never used                                                                     no-unused-vars
+  Line 6:8:    'Tours' is defined but never used                                                                        no-unused-vars
+  Line 9:10:   'forwardRef' is defined but never used                                                                   no-unused-vars
+  Line 9:22:   'useCallback' is defined but never used                                                                  no-unused-vars
+  Line 9:46:   'useRef' is defined but never used                                                                       no-unused-vars
+  Line 11:16:  'setPage' is assigned a value but never used                                                             no-unused-vars
+  Line 12:10:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 12:19:  'setHasMore' is assigned a value but never used                                                          no-unused-vars
+  Line 13:10:  'fetchState' is assigned a value but never used                                                          no-unused-vars
+  Line 13:22:  'setFetchState' is assigned a value but never used                                                       no-unused-vars
+  Line 23:19:  'homeElements' is assigned a value but never used                                                        no-unused-vars
+  Line 23:33:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 32:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 41:19:  'aboutElements' is assigned a value but never used                                                       no-unused-vars
+  Line 41:34:  'hasMore' is assigned a value but never used                                                             no-unused-vars
+  Line 51:6:   React Hook useEffect has a missing dependency: 'page'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\About.js
+  Line 2:8:    'thCRMImg' is defined but never used     no-unused-vars
+  Line 15:21:  'id' is assigned a value but never used  no-unused-vars
+
+src\components\Footer.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\NavBar.js
+  Line 1:8:   'logo' is defined but never used       no-unused-vars
+  Line 3:10:  'FaBars' is defined but never used     no-unused-vars
+  Line 3:18:  'FaTwitter' is defined but never used  no-unused-vars
+  Line 4:10:  'SiZoho' is defined but never used     no-unused-vars
+[info] [2023-02-19T17:16:42.588Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-19T17:16:42.588Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-19T17:16:42.589Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-19T17:16:42.608Z] : [react-plugin]:   59.15 kB  build\static\js\main.b5c072a3.js
+[info] [2023-02-19T17:16:42.609Z] : [react-plugin]:   2.41 kB   build\static\css\main.5f401a8e.css
+[info] [2023-02-19T17:16:42.609Z] : [react-plugin]:  
+[debug] [2023-02-19T17:16:43.133Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/webapp 
+
+[debug] [2023-02-19T17:16:47.738Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=1abb8a66-a179-4288-adbd-40a4b3c42e12;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1abb8a66-a179-4288-adbd-40a4b3c42e12;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-19T17:16:47.740Z] : 
+[info] [2023-02-19T17:16:47.741Z] : i functions(the_crm_carpenters_webiste_function): URL => https://thecrmcarpenterswebiste-771945458.development.catalystserverless.com/server/the_crm_carpenters_webiste_function/
+[info] [2023-02-19T17:16:47.741Z] : √ functions(the_crm_carpenters_webiste_function): deploy successful
+[info] [2023-02-19T17:16:47.741Z] : 
+[info] [2023-02-19T17:16:47.741Z] : √ client: deploy successful
+[info] [2023-02-19T17:16:47.742Z] : i client: URL => https://thecrmcarpenterswebiste-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-19T17:16:47.742Z] : 
+[info] [2023-02-19T17:16:47.742Z] : √ Catalyst deploy complete!
+[debug] [2023-02-19T17:16:47.742Z] : NO ERRORS REGISTERED
+[debug] [2023-02-19T17:16:47.742Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-19T17:16:47.742Z] : TOTAL DURATION OF COMMAND EXEC : 25911
+[debug] [2023-02-19T17:16:47.758Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-19T17:16:50.005Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:51 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=8be74c81-d572-4bd6-8749-d53e21b19989;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8be74c81-d572-4bd6-8749-d53e21b19989;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=3A80683128242B578D3ABA3C22922779; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-19T17:16:50.006Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-19T17:16:50.012Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range

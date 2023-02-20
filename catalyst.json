@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "the_crm_carpenters_webiste_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "react-app",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
