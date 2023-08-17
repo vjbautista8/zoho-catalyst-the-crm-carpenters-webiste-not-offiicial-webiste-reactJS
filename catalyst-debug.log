@@ -2166,3 +2166,15 @@ Response Headers: {"server":"ZGS","date":"Thu, 17 Aug 2023 04:27:27 GMT","conten
 [info] [2023-08-17T04:27:33.793Z] : [react-plugin]: Note that the development build is not optimized.
 [info] [2023-08-17T04:27:33.793Z] : [react-plugin]: To create a production build, use npm run build.
 [info] [2023-08-17T04:27:33.794Z] : [react-plugin]: 
+[info] [2023-08-17T04:31:50.452Z] : Shutting down server
+[info] [2023-08-17T04:31:50.493Z] : 
+[info] [2023-08-17T04:31:50.494Z] : √ Shutdown complete
+[debug] [2023-08-17T04:31:50.494Z] : NO ERRORS REGISTERED
+[debug] [2023-08-17T04:31:50.494Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-08-17T04:31:50.495Z] : TOTAL DURATION OF COMMAND EXEC : 265685
+[debug] [2023-08-17T04:31:50.501Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-08-17T04:31:51.094Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 17 Aug 2023 04:31:52 GMT","content-length":"0","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=e1d7150e-e195-49aa-81d3-d60ff41b52a8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e1d7150e-e195-49aa-81d3-d60ff41b52a8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
