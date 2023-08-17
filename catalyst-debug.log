@@ -2122,3 +2122,47 @@ Response Headers: {"server":"ZGS","date":"Sun, 19 Feb 2023 17:16:51 GMT","conten
 [debug] [2023-02-19T17:16:50.006Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
 
 [debug] [2023-02-19T17:16:50.012Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-08-17T04:27:24.219Z] : 
+[debug] [2023-08-17T04:27:24.221Z] : ----------------------------------------------------------------------
+[debug] [2023-08-17T04:27:24.221Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-08-17T04:27:24.221Z] : CLI Version:  1.14.0
+[debug] [2023-08-17T04:27:24.222Z] : Platform:     win32
+[debug] [2023-08-17T04:27:24.222Z] : Node Version: v16.20.1
+[debug] [2023-08-17T04:27:24.223Z] : Time:         Thu Aug 17 2023 12:27:24 GMT+0800 (Singapore Standard Time)
+[debug] [2023-08-17T04:27:24.223Z] : ----------------------------------------------------------------------
+[debug] [2023-08-17T04:27:24.223Z] : 
+[debug] [2023-08-17T04:27:24.820Z] : > authorizing via signed-in user option
+[debug] [2023-08-17T04:27:24.820Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-08-17T04:27:24.832Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326 
+
+[debug] [2023-08-17T04:27:25.399Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 17 Aug 2023 04:27:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=015a66c2-b77d-457c-b7cd-8b43cfbb6e65;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=015a66c2-b77d-457c-b7cd-8b43cfbb6e65;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-17T04:27:25.412Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/environment 
+
+[debug] [2023-08-17T04:27:25.965Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 17 Aug 2023 04:27:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=0d8f36eb-b86d-481a-a5d9-7658726f2941;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0d8f36eb-b86d-481a-a5d9-7658726f2941;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-17T04:27:26.159Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093326/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-08-17T04:27:26.703Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 17 Aug 2023 04:27:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=bbe2a946-f078-4c9c-903d-28ad0edfe2f9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bbe2a946-f078-4c9c-903d-28ad0edfe2f9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-17T04:27:26.709Z] : unknown eol undefined hence skipping check
+[info] [2023-08-17T04:27:29.334Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-08-17T04:27:29.336Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-08-17T04:27:30.326Z] : 
+[info] [2023-08-17T04:27:30.327Z] : i server[the_crm_carpenters_webiste_function]: URL : http://localhost:3000/server/the_crm_carpenters_webiste_function/
+[info] [2023-08-17T04:27:30.327Z] : 
+[info] [2023-08-17T04:27:33.792Z] : [react-plugin]: Compiled successfully!
+[info] [2023-08-17T04:27:33.792Z] : [react-plugin]: 
+[info] [2023-08-17T04:27:33.792Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-08-17T04:27:33.793Z] : [react-plugin]: 
+[info] [2023-08-17T04:27:33.793Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-08-17T04:27:33.793Z] : [react-plugin]:   On Your Network:  http://192.168.254.108:3000/app/
+[info] [2023-08-17T04:27:33.793Z] : [react-plugin]: 
+[info] [2023-08-17T04:27:33.793Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-08-17T04:27:33.793Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-08-17T04:27:33.794Z] : [react-plugin]: 

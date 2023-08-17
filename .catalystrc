@@ -16,6 +16,7 @@
         "id": "10053584118",
         "name": "thecrmcarpenterswebiste-771945458.development"
       },
+      "timezone": "America/Los_Angeles",
       "env": [
         {
           "idx": 1,
